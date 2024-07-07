@@ -1,0 +1,91 @@
+/* Reset and Basic Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #7EC8E3, #B0D7F3, #D5BAE8);
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #6C5B7B;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    font-family: 'Pacifico', cursive; /* Use Google Fonts for custom fonts */
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Section Styles */
+.services {
+    padding: 50px 0;
+    background: linear-gradient(to right, #D5BAE8, #B0D7F3, #7EC8E3);
+}
+
+.services h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.service {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.service h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Pacifico', cursive; /* Use Google Fonts for custom fonts */
+}
+
+.service p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #6C5B7B;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 1.1rem;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
